@@ -14,7 +14,7 @@ def app():
     c1, c2 = st.columns(2)
     URL = 'https://github.com/NathanSglr/test/blob/e8d458b4c31d9fa77fff54eb44d86bcdd801b95c/StreamlitApp/Pictures/Equancy_logo.png'
     urlretrieve(URL, 'pic.png')
-    img = Image.open('pic.jpg')
+    img = Image.open('pic.png')
     c1.image(img)
 
     c2.image('https://github.com/NathanSglr/test/blob/e8d458b4c31d9fa77fff54eb44d86bcdd801b95c/StreamlitApp/Pictures/IMTA_logo.png')
