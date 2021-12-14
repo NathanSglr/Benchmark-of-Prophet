@@ -9,7 +9,7 @@ def app():
     st.write('- **_Tuteur Entreprise_**: Hervé Mignot')
     st.write('------------------------------------------------------------------------------------------------------------------------')
     c1, c2 = st.columns(2)
-    c1.image('https://github.com/NathanSglr/test/blob/e8d458b4c31d9fa77fff54eb44d86bcdd801b95c/StreamlitApp/Pictures/Equancy_logo.png')
+    c1.image('https://github.com/NathanSglr/test/blob/e8d458b4c31d9fa77fff54eb44d86bcdd801b95c/StreamlitApp/Pictures/Equancy_logo.png?raw=true')
 
     c2.image('https://github.com/NathanSglr/test/blob/e8d458b4c31d9fa77fff54eb44d86bcdd801b95c/StreamlitApp/Pictures/IMTA_logo.png')
     st.write('------------------------------------------------------------------------------------------------------------------------')
