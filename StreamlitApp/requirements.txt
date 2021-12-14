@@ -1,0 +1,11 @@
+pandas
+streamlit
+numpy
+datetime
+sklearn
+statsmodels
+tensorflow
+torch
+fbprophet==0.7.1
+pystan==2.19.1.1
+plotly
