@@ -8,7 +8,7 @@ from OtherPages import Intro, View_data, View_benchmark
 # Fonction pour charger la data à partir d'un CSV (les CSV ont été pré-générés à partir du fichier
 # sales_data.parquet, pour éviter que le chargement au démarrage prenne trop de temps)
 def load_data(PRODUCT_ID, STORE_ID):
-    # os.chdir('test/StreamlitApp')
+    os.chdir('../StreamlitApp')
     data_init = pd.read_csv(f'../{PRODUCT_ID}_{STORE_ID}.csv')
     data_init = data_init.assign(weekDate=lambda _df: pd.to_datetime(_df['weekDate'], format="%Y-%m-%d"))
     data = data_init.copy()
