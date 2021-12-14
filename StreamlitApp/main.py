@@ -202,7 +202,7 @@ def mainApp(pages, dataDict, Product_ids, Store_ids):
         st.session_state.valM.app(st.session_state.valDF)
     if st.session_state.valFV and st.session_state.valmc == 'None': # Si on a cliqué sur le bouton View Forecasts et qu'on a bien selectionné un modèle, on affiche une erreur
         st.markdown('<h2><center>You must choose a model to see the forecasts</center></h2>', unsafe_allow_html=True)
-        st.image('Pictures/errorSymbol.jpg')
+        st.image('https://github.com/NathanSglr/test/blob/main/StreamlitApp/Pictures/errorSymbol.jpg?raw=true')
     if st.session_state.valR: # Si on a cliqué sur le bouton View Benchmark, on affiche la page des résultats du Benchmark
         View_benchmark.app()
 
